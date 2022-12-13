@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">HW_13.6</string>
+    <string name="tv_back">Back</string>
+    <string name="tv_forward">Forward</string>
+    <string name="tv_news_1">Technology</string>
+    <string name="tv_news_2">Software</string>
+    <string name="tv_news_3">Hardware</string>
+    <string name="tv_news_4">Virtual Reality</string>
+    <string name="tv_news_5">Neural Network</string>
+    <string name="tv_news_6">Development</string>
+    <string name="tv_author">Dulat Krymov</string>
+    <string name="tv_content_1">Android is a mobile operating system based on a modified version of the Linux kernel and other open-source software, designed primarily for touchscreen mobile devices such as smartphones and tablets.</string>
+    <string name="tv_content_2">Android is developed by a consortium of developers known as the Open Handset Alliance and commercially sponsored by Google.</string>
+    <string name="tv_content_3">It was unveiled in November 2007, with the first commercial Android device, the HTC Dream, being launched in September 2008.</string>
+    <string name="tv_content_4">Most versions of Android are proprietary. The core components are taken from the Android Open Source Project (AOSP), which is free and open-source software (FOSS) primarily licensed under the Apache License.</string>
+    <string name="tv_content_5">When Android is installed on devices, the ability to modify the otherwise free and open-source software is usually restricted, either by not providing the corresponding source code or by preventing re-installation through technical measures, thus rendering the installed version proprietary.</string>
+    <string name="tv_content_6">Most Android devices ship with additional proprietary software pre-installed,[4] most notably Google Mobile Services (GMS)[5] which includes core apps such as Google Chrome, the digital distribution platform Google Play, and the associated Google Play Services development platform.</string>
+</resources>
