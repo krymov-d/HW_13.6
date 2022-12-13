@@ -6,6 +6,7 @@
     android:padding="8dp">
 
     <TextView
+        android:id="@+id/tv_content_1"
         style="@style/tv_content"
         android:text="@string/tv_news_1"
         android:layout_weight="1"/>

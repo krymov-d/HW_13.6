@@ -13,7 +13,7 @@ class Headings : Fragment(R.layout.headings) {
         tvHeadingOne.setOnClickListener {
             parentFragmentManager
                 .beginTransaction()
-                .add(
+                .replace(
                     R.id.fl_content,
                     ContentOne(),
                     "ContentOne"
@@ -26,10 +26,10 @@ class Headings : Fragment(R.layout.headings) {
         tvHeadingTwo.setOnClickListener {
             parentFragmentManager
                 .beginTransaction()
-                .add(
+                .replace(
                     R.id.fl_content,
                     ContentTwo(),
-                    "ContentOne"
+                    "ContentTwo"
                 )
                 .addToBackStack(null)
                 .commit()
@@ -39,10 +39,10 @@ class Headings : Fragment(R.layout.headings) {
         tvHeadingThree.setOnClickListener {
             parentFragmentManager
                 .beginTransaction()
-                .add(
+                .replace(
                     R.id.fl_content,
                     ContentThree(),
-                    "ContentOne"
+                    "ContentThree"
                 )
                 .addToBackStack(null)
                 .commit()
@@ -52,10 +52,10 @@ class Headings : Fragment(R.layout.headings) {
         tvHeadingFour.setOnClickListener {
             parentFragmentManager
                 .beginTransaction()
-                .add(
+                .replace(
                     R.id.fl_content,
                     ContentFour(),
-                    "ContentOne"
+                    "ContentFour"
                 )
                 .addToBackStack(null)
                 .commit()
@@ -65,10 +65,10 @@ class Headings : Fragment(R.layout.headings) {
         tvHeadingFive.setOnClickListener {
             parentFragmentManager
                 .beginTransaction()
-                .add(
+                .replace(
                     R.id.fl_content,
                     ContentFive(),
-                    "ContentOne"
+                    "ContentFive"
                 )
                 .addToBackStack(null)
                 .commit()
@@ -78,10 +78,10 @@ class Headings : Fragment(R.layout.headings) {
         tvHeadingSix.setOnClickListener {
             parentFragmentManager
                 .beginTransaction()
-                .add(
+                .replace(
                     R.id.fl_content,
                     ContentSix(),
-                    "ContentOne"
+                    "ContentSix"
                 )
                 .addToBackStack(null)
                 .commit()
