@@ -7,7 +7,7 @@
 
     <TextView
         style="@style/tv_content"
-        android:text="@string/tv_news_1"
+        android:text="@string/tv_news_3"
         android:layout_weight="1"/>
 
     <TextView
@@ -17,6 +17,6 @@
 
     <TextView
         style="@style/tv_content"
-        android:text="@string/tv_content_1"
+        android:text="@string/tv_content_3"
         android:layout_weight="8"/>
 </androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,71 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.appcompat.widget.LinearLayoutCompat
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
     android:orientation="vertical"
-    android:padding="8dp">
+    android:padding="8dp"
+    tools:context=".MainActivity">
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
+        android:layout_marginBottom="4dp"
         android:layout_weight="1"
-        android:baselineAligned="false"
-        android:layout_marginBottom="4dp">
-        <LinearLayout
-        android:layout_width="0dp"
-        android:layout_weight="1"
-        android:layout_height="match_parent"
-            android:orientation="vertical"
-            android:layout_marginEnd="4dp">
-            <TextView
-                android:id="@+id/tv_news_1"
-                style="@style/tv_heading"
-                android:text="@string/tv_news_1"/>
-            <TextView
-                android:id="@+id/tv_news_2"
-                style="@style/tv_heading"
-                android:text="@string/tv_news_2"/>
-            <TextView
-                android:id="@+id/tv_news_3"
-                style="@style/tv_heading"
-                android:text="@string/tv_news_3"/>
-            <TextView
-                android:id="@+id/tv_news_4"
-                style="@style/tv_heading"
-                android:text="@string/tv_news_4"/>
-            <TextView
-                android:id="@+id/tv_news_5"
-                style="@style/tv_heading"
-                android:text="@string/tv_news_5"/>
-            <TextView
-                android:id="@+id/tv_news_6"
-                style="@style/tv_heading"
-                android:text="@string/tv_news_6"/>
-        </LinearLayout>
+        android:baselineAligned="false">
+
+        <FrameLayout
+            android:id="@+id/fl_headings"
+            style="@style/main_screen"
+            android:layout_marginEnd="4dp" />
 
         <FrameLayout
             android:id="@+id/fl_content"
-            android:layout_width="0dp"
-            android:layout_weight="1"
-            android:layout_height="match_parent"
-            android:layout_marginStart="4dp"
-            tools:background="@drawable/tv_background"/>
+            style="@style/main_screen"
+            android:layout_marginStart="4dp" />
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="48dp">
+
         <TextView
             android:id="@+id/tv_back"
             style="@style/tv_navigation"
-            android:text="@string/tv_back"
-            android:layout_marginEnd="4dp"/>
+            android:layout_marginEnd="4dp"
+            android:text="@string/tv_back" />
+
         <TextView
             android:id="@+id/tv_forward"
             style="@style/tv_navigation"
-            android:text="@string/tv_forward"
-            android:layout_marginStart="4dp"/>
+            android:layout_marginStart="4dp"
+            android:text="@string/tv_forward" />
     </LinearLayout>
 </androidx.appcompat.widget.LinearLayoutCompat>

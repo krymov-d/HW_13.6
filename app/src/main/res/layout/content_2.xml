@@ -1,17 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.appcompat.widget.LinearLayoutCompat
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:padding="8dp">
+
     <TextView
         style="@style/tv_content"
-        android:text="@string/tv_news_2"/>
+        android:text="@string/tv_news_2"
+        android:layout_weight="1"/>
+
     <TextView
         style="@style/tv_content"
-        android:text="@string/tv_author"/>
+        android:text="@string/tv_author"
+        android:layout_weight="1"/>
+
     <TextView
         style="@style/tv_content"
-        android:text="@string/tv_content_2"/>
+        android:text="@string/tv_content_2"
+        android:layout_weight="8"/>
 </androidx.appcompat.widget.LinearLayoutCompat>
